@@ -5,7 +5,6 @@ services:
     container_name: 'launchpad'
     hostname: 'launchpad'
     restart: 'always'
-    read_only: true
     security_opt:
       - no-new-privileges:true
     cap_drop:
