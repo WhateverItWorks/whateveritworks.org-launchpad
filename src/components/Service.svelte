@@ -13,7 +13,7 @@
 	let status = 'pending';
 
 	const fetchStatus = async () => {
-		const request = await fetch(`https://statusapi.whatever.social/${statusId}`);
+		const request = await fetch(`https://statusapi.whateveritworks.org${statusId}`);
 
 		const response: {
 			success: boolean;
