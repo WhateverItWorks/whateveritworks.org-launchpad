@@ -21,24 +21,24 @@
 <ThemeSwitcher />
 
 <div class="container">
-	<h1>whatever<span style="color: #4362ff">.</span>social</h1>
+	<h1>WhateverItWorks<span style="color: #4362ff">.</span>org</h1>
 	<h2>Privacy Policy</h2>
 	<p>
-		"We", "our" and "us" refers to whatever.social's and whatevertinfoil.de's maintainers and/or
+		"We", "our" and "us" refers to WhateverItWorks's and xbdm.fun's maintainers and/or
 		developers. "You" refers to you as the user of our services.
 		<br />
 		<br />
-		Whatever Social is committed to giving users more control over their digital life. This is why we
+		WhateverItWorks is committed to giving users more control over their digital life. This is why we
 		take steps to help ensure we are providing a private and secure experience while you browse your
 		favorite social media. This policy outlines important details such as what we store, what you will
 		need to consult third parties for, and situations where we cannot protect you.
 		<br />
 		<br />
-		This policy applies to all whatever.social sites, found at https://whatever.social, https://whatevertinfoil.de
+		This policy applies to all WhateverItWorks sites, found at https://whateveritworks.org, https://xbdm.fun
 		and all their subdomains. Some sections of this policy may be specific to one of our services, in
 		which case it is specified. By using our services, you are agreeing to this policy.
 		<br /> <br />
-		Last updated: February 20, 2023
+		Last updated: May 3, 2023
 	</p>
 	<br />
 	<br />
@@ -58,8 +58,8 @@
 		<br />
 		<br />
 		Information you provide to us: Usernames are stored for the services they apply to. Your e-mail address
-		is received by us when you choose to contact us via e-mail. Your Session Messenger "ID" is received
-		by us when you choose to contact us via Session. No other identifiable information is provided by
+		is received by us when you choose to contact us via e-mail. Your Session, Signal, Matrix, XMPP, and or any other Messenger "ID" is received
+		by us when you choose to contact us via our contact methods. No other identifiable information is provided by
 		you to us.
 		<br />
 		<br />
@@ -73,7 +73,7 @@
 	<p>
 		The only use of cookies and local storage in our services is to keep you signed into our
 		services which accounts can be used in, and to save your preferences (Ex: Default video quality
-		on https://watch.whatever.social). We do not use cookies for any other purposes.
+		on https://yt.xbdm.fun). We do not use cookies for any other purposes.
 	</p>
 	<br />
 	<br />
@@ -81,12 +81,11 @@
 	<p>
 		In the event of a subpoena, court order, other legal process, or to exercise our legal rights
 		and/or to defend against legal claims, we may be forced to give applicable information with
-		third-parties. Our sites hosted on our whatever.social domain operate on a server in Los Angeles, CA, United States, which is subject to United States Law, and on a server in Eygelshoven, Netherlands which is subject to The Netherlands Law. Our sites hosted on our
-		whatevertinfoil.de domain operate on a server in Germany, and are subject to German Law.
+		third-parties. Our sites hosted on our WhateverItWorks.org, xbdm.fun domains operate on a servers in Falkenstein, Germany and Helsinki, Finland which is subject to Germany and Finland Law.
 		<br />
 		<br />
 		View the "Personal Data" section of this policy and our
-		<a class="link" href="https://whatever.social/transparency" target="_blank"
+		<a class="link" href="https://whateveritworks.org/transparency" target="_blank"
 			>Transparency Report</a
 		>.
 	</p>
@@ -94,28 +93,48 @@
 	<br />
 	<h2>🤝 Third-parties providing Technical Services</h2>
 	<br />
-	<h3>NOC.org</h3>
+	<h3>Cloudflare.com</h3>
 	<p>
-		We rely on NOC.org to provide us with DDoS protection, CDN delivery and certain other web
-		services. NOC.org is not used on services on our whatevertinfoil.de domain. View <a
+		We rely on Cloudflare.com to provide us with DDoS protection, CDN delivery and certain other web
+		services. View <a
 			class="link"
-			href="https://noc.org/privacy/"
-			target="_blank">NOC.org's Privacy Policy</a
+			href="https://cloudflare.com/privacy/"
+			target="_blank">Cloudflare.com's Privacy Policy</a
 		> to learn more.
 	</p>
+	
+	<br>
+	<br>
 	<br />
-	<h3>Backblaze</h3>
+	<h3>Daily Backups</h3>
 	<p>
-		We rely on Backblaze for data backups. Each backup is retained for 14 days. Backblaze is not used on services on our whatevertinfoil.de domain. View <a
+		We rely on Backblaze, Scaleway, and Wasabi for data backups for restoration of the services. 
+		
+		
+		View <a
+			class="link"
+			href="https://wasabi.com/legal/privacy-policy/"
+			target="_blank">Wasabi's Privacy Policy</a
+		> to learn more. 
+		<br>
+		
+		View <a
+			class="link"
+			href="https://www.scaleway.com/en/privacy-policy/"
+			target="_blank">Scaleway's Privacy Policy</a
+		> to learn more. 
+		<br>
+		View <a
 			class="link"
 			href="https://www.backblaze.com/company/privacy.html"
 			target="_blank">Backblazes's Privacy Policy</a
 		> to learn more.
+		<br>
 	</p>
 	<br />
 	<h3>Kavin.rocks</h3>
 	<p>
-		On https://watch.whatever.social and https://watch.whatevertinfoil.de, fonts may be loaded from
+		On https://watch.whateveritworks.org fonts may be loaded from
 		https://fonts.kavin.rocks, which operates via Cloudflare Workers.
 	</p>
 	<br />
@@ -128,18 +147,14 @@
 		> to learn more.
 	</p>
 	<br />
-	<h3>Proton</h3>
+	<h3>Our Email Server</h3>
 	<p>
-		We use Proton to receive and store your e-mails sent to us. View <a
-			class="link"
-			href="https://proton.me/legal/privacy"
-			target="_blank">Proton's Privacy Policy</a
-		> to learn more.
+		We use our own Email Server to receive and store your e-mails sent to us.
 	</p>
 	<br />
-	<h3>SimpleLogin</h3>
+	<h3>Our SimpleLogin Instance</h3>
 	<p>
-		We use SimpleLogin to relay your e-mails sent to our whatever.social domain. View <a
+		We use our own SimpleLogin to relay your e-mails sent to our whateveritworks.org domain. View <a
 			class="link"
 			href="https://simplelogin.io/privacy/"
 			target="_blank">SimpleLogin's Privacy Policy</a
@@ -148,17 +163,6 @@
 	<br />
 	<br />
 	<h2>💵 Third-parties providing Payment Services</h2>
-	<br />
-	<h3>Liberapay</h3>
-	<br />
-	<p>
-		We rely on Liberapay to handle your payments to us when this method is chosen. We do NOT receive
-		any of your personal information, such as Name, Payment Information, and etc. View <a
-			class="link"
-			href="https://en.liberapay.com/about/privacy"
-			target="_blank">Liberapay's Privacy Policy</a
-		> to learn more.
-	</p>
 	<br />
 	<h3>Cake Wallet</h3>
 	<p>
@@ -174,7 +178,7 @@
 	<p>
 		We take the steps that we deem reasonable to protect your data from unauthorized access and
 		distribution, and from loss of data. For example, we use SSL/TLS to transmit data to you in an
-		encrypted format, and provided passwords are hashed for the services that require user accounts.
+		encrypted format, and we use end-to-end encryption + encryption at rest to ensure your data is safe and sound. With also provided passwords are hashed with Bcrypt or Argon2id for the services that require user accounts.
 	</p>
 	<br />
 	<br />
@@ -190,10 +194,10 @@
 		We do not knowingly collect personal information from anyone under 13 years of age. If you are
 		aware of someone under the age of 13 using our services, please report them to <a
 			class="link"
-			href="mailto:privacy@whatever.social"
-			target="_blank">privacy@whatever.social</a
+			href="mailto:privacy@whateveritworks.org"
+			target="_blank">privacy@whateveritworks.org</a
 		>
-		(PGP Public Key <a class="link" href="https://whatever.social/email" target="_blank">here</a>).
+		(GPG/PGP Public Key <a class="link" href="https://whateveritworks.org/email" target="_blank">here</a>).
 		If we are able to find any information relating to that person, it will be removed.
 	</p>
 	<br />
@@ -202,10 +206,10 @@
 	<p>
 		If you have questions or feedback regarding this policy, feel free to e-mail us at <a
 			class="link"
-			href="mailto:privacy@whatever.social"
-			target="_blank">privacy@whatever.social</a
+			href="mailto:privacy@whateveritworks.org"
+			target="_blank">privacy@whateveritworks.org</a
 		>
-		(PGP Public Key <a class="link" href="https://whatever.social/email" target="_blank">here</a>).
+		(PGP Public Key <a class="link" href="https://whateveritworks.org/email" target="_blank">here</a>).
 	</p>
 	<br />
 	<br />
