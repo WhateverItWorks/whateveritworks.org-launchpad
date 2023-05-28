@@ -13,40 +13,48 @@
 	let socialServices = [
 		{
 			name: 'Piped',
-			desc: 'An alternative frontend for YouTube.',
-			url: 'https://watch.whatever.social',
+			desc: 'An alternative to invidious frontend for YouTube.',
+			url: 'https://watch.whateveritworks.org',
 			src: 'https://github.com/TeamPiped/Piped',
-			iconUrl: 'https://watch.whatever.social/favicon.ico',
+			iconUrl: 'https://watch.whateveritworks.org/favicon.ico',
+			statusId: 'watch'
+		},
+		{
+			name: 'Invidious',
+			desc: 'An alternative frontend for YouTube.',
+			url: 'https://yt.whateveritworks.org',
+			src: 'https://github.com/iv-org/invidious',
+			iconUrl: 'https://yt.whateveritworks.org/favicon.ico',
 			statusId: 'watch'
 		},
 		{
 			name: 'Nitter',
 			desc: 'An alternative frontend for Twitter.',
-			url: 'https://read.whatever.social',
+			url: 'https://read.whateveritworks.org',
 			src: 'https://github.com/zedeus/nitter',
-			iconUrl: 'https://read.whatever.social/favicon.ico',
+			iconUrl: 'https://read.whateveritworks.org/favicon.ico',
 			statusId: 'read'
 		},
 		{
 			name: 'Hyperpipe',
 			desc: 'An alternative frontend for YouTube Music.',
-			url: 'https://listen.whatever.social',
+			url: 'https://listen.whateveritworks.org',
 			src: 'https://codeberg.org/Hyperpipe/Hyperpipe',
-			iconUrl: 'https://listen.whatever.social/favicon.svg',
+			iconUrl: 'https://listen.whateveritworks.org/favicon.svg',
 			statusId: 'listen'
 		},
 		{
 			name: 'Libreddit',
 			desc: 'An alternative frontend for Reddit',
-			url: 'https://discuss.whatever.social',
+			url: 'https://discuss.whateveritworks.org',
 			src: 'https://github.com/libreddit/libreddit',
-			iconUrl: 'https://discuss.whatever.social/logo.png',
+			iconUrl: 'https://discuss.whateveritworks.org/logo.png',
 			statusId: 'libreddit'
 		},
 		{
 			name: 'Proxitok',
-			desc: 'Coming Soon - An alternative frontend for Tiktok',
-			url: 'https://whatever.social',
+			desc: 'An alternative frontend for Tiktok',
+			url: 'https://cringe.whateveritworks.org',
 			src: 'https://github.com/pablouser1/ProxiTok',
 			iconUrl: 'https://raw.githubusercontent.com/pablouser1/ProxiTok/master/favicon.ico',
 			statusId: 'proxitok'
@@ -61,21 +69,16 @@
 
 	let tinfoilServices = [
 		{
-			name: 'Piped (Tinfoil)',
-			desc: 'The same alternative frontend for YouTube, but with even more privacy.',
-			url: 'https://watch.whatevertinfoil.de',
-			src: 'https://github.com/TeamPiped/Piped',
-			iconUrl: 'https://watch.whatever.social/favicon.ico',
-			statusId: 'tinfoil_piped'
+			
 		}
 	];
 </script>
 
 <svelte:head>
-	<title>whatever.social - Premium FOSS instances for all</title>
+	<title>WhateverItWorks.org - Premium FOSS instances for all</title>
 	<meta
 		name="description"
-		content="Premium self-hosted instances of popular social media frontends. No ads, no trackers, just content."
+		content="Premium self-hosted instances of popular frontends. No ads, no trackers, just content."
 	/>
 	<meta name="og:image" content="/favicon.jpg" />
 	<meta name="theme-color" content="#f2f2f2" />
@@ -85,10 +88,10 @@
 
 
 <div class="container">
-	<h1>whatever<span style="color: #4362ff">.</span>social</h1>
+	<h1>whateveritworks<span style="color: #4362ff">.</span>org</h1>
 	<h2>Premium FOSS instances for all.</h2>
 	<p>
-		whatever.social is a collection of <b>speedy and reliable</b> self-hosted instances of popular FOSS
+		WhateverItWorks is a collection of <b>speedy and reliable</b> self-hosted instances of popular FOSS
 		projects, like Piped, Nitter and Hyperpipe. Our growing library focuses on alternatives to privacy
 		invasive services, like YouTube and Twitter.
 	</p>
@@ -96,7 +99,7 @@
 	<p>
 		Have questions or feedback? Contact the admin via <a
 			class="link"
-			href="https://whatever.social/email"
+			href="https://whateveritworks.org/email"
 			target="_blank">E-mail</a
 		>
 		or
@@ -107,22 +110,22 @@
 					navigator.permissions.query({ name: 'clipboard-write' }).then((result) => {
 						if (result.state == 'granted' || result.state == 'prompt') {
 							navigator.clipboard
-								.writeText('0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e')
+								.writeText('')
 								.then(function (x) {
 									alert('Session ID was beamed to your device. Paste away!');
 								});
 						} else {
 							try {
 								navigator.clipboard
-									.writeText('0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e')
+									.writeText('')
 									.then(function (x) {
 										alert(
-											"Whoops, we're not sure if this copied in your browser. Here's the ID just in case: 0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e"
+											"Whoops, we're not sure if this copied in your browser. Here's the ID just in case: "
 										);
 									});
 							} catch (e) {
 								alert(
-									"For some reason we couldn't copy the Session ID to your clipboard. Here's the ID: 0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e"
+									"For some reason we couldn't copy the Session ID to your clipboard. Here's the ID: "
 								);
 							}
 						}
@@ -135,17 +138,17 @@
 						});
 				}
 			}}>Session</span
-		>. Be sure to follow @whatever on <a 
+		>. Be sure to follow @WhateverItWorks on <a 
 		   	rel="me"
 		   	class="link"
-			href="https://noc.social/@whatever"
+			href="https://social.whateveritworks.org/@WhateverItWorks"
 			target="_blank">Mastodon</a
 		   >.
 	</p>
 
 	<h3>Alternative Frontends</h3>
 	<p>
-		All our main alternative frontends proxy your requests through our server in LA, making you much
+		All our main alternative frontends proxy your requests through our server in Germany and Finland, making you much
 		harder to track by these companies.
 	</p>
 	<div class="services">
@@ -163,30 +166,15 @@
 	<br /> -->
 
 	<br />
-	<h3>Whatever Tinfoil</h3>
-	<p>
-		An edition of Whatever Social services for the hardcore privacy enthusiasts. Hosted on a
-		separate server in Nuremburg, Germany, these CDN-free instances fetch data straight from our
-		server, giving the appreciated tinfoil-hat-wearers better peace of mind.
-	</p>
-	<div class="services">
-		{#each tinfoilServices as service}
-			<Service {...service} />
-		{/each}
-	</div>
+	
 
 	<br />
 	<br />
-	<h4>Help keep the project afloat</h4>
+	<h4>Help keep the project alive</h4>
 	<p>
-		As a student, mounting server costs may become a problem in the future. If you'd like to support
-		this project's growth, please consider donating via <a
-			class="link"
-			rel="noopener noreferrer"
-			target="_blank"
-			href="https://liberapay.com/whateversocial">Liberapay</a
-		>
-		or
+		As a 1 man dev, mounting server costs may become a problem in the future. If you'd like to support
+		this project's growth, please consider donating via 
+		
 		<span
 			class="link"
 			on:click={() => {
@@ -195,7 +183,7 @@
 						if (result.state == 'granted' || result.state == 'prompt') {
 							navigator.clipboard
 								.writeText(
-									'87tu5QTMSKmi8RmyyRCP1daBouRKegmL54k9d4cqqWscHWTqSaKRXQu9X2g81JgJyfQFbyL1dTRmR6TsZ8oZZqLj1Ljfyd7'
+									''
 								)
 								.then(function (x) {
 									alert('The Monero address was beamed to your device. Paste away!');
@@ -204,16 +192,16 @@
 							try {
 								navigator.clipboard
 									.writeText(
-										'87tu5QTMSKmi8RmyyRCP1daBouRKegmL54k9d4cqqWscHWTqSaKRXQu9X2g81JgJyfQFbyL1dTRmR6TsZ8oZZqLj1Ljfyd7'
+										''
 									)
 									.then(function (x) {
 										alert(
-											"Whoops, we're not sure if this copied in your browser. Here's the address just in case: 87tu5QTMSKmi8RmyyRCP1daBouRKegmL54k9d4cqqWscHWTqSaKRXQu9X2g81JgJyfQFbyL1dTRmR6TsZ8oZZqLj1Ljfyd7"
+											"Whoops, we're not sure if this copied in your browser. Here's the address just in case: "
 										);
 									});
 							} catch (e) {
 								alert(
-									"For some reason we couldn't copy the Monero address to your clipboard. Here's the ID: 87tu5QTMSKmi8RmyyRCP1daBouRKegmL54k9d4cqqWscHWTqSaKRXQu9X2g81JgJyfQFbyL1dTRmR6TsZ8oZZqLj1Ljfyd7"
+									"For some reason we couldn't copy the Monero address to your clipboard. Here's the ID: "
 								);
 							}
 						}
@@ -221,7 +209,7 @@
 				} catch (e) {
 					navigator.clipboard
 						.writeText(
-							'87tu5QTMSKmi8RmyyRCP1daBouRKegmL54k9d4cqqWscHWTqSaKRXQu9X2g81JgJyfQFbyL1dTRmR6TsZ8oZZqLj1Ljfyd7'
+							''
 						)
 						.then(function (x) {
 							alert('The Monero address was beamed to your device. Paste away!');
@@ -233,24 +221,29 @@
 	<br />
 	<p class="additional">
 		View our
-		<a class="link" href="https://whatever.social/privacy" target="_blank">Privacy Policy</a>,
+		<a class="link" href="https://whateveritworks.org/privacy" target="_blank">Privacy Policy</a>,
 		<a
 			class="link"
-			href="https://whatever.social/transparency"
+			href="https://whateveritworks.org/transparency"
 			target="_blank"
 			rel="noopener noreferrer">Transparency Report</a
 		>
 		and this site's
 		<a
 			class="link"
-			href="https://github.com/httpjamesm/whatever.social-launchpad"
+			href="https://github.com/WhateverItWorks/whateveritworks.org-launchpad"
 			target="_blank"
-			rel="noopener noreferrer">Code</a
+			rel="noopener noreferrer">Source Code</a
 		>
 	</p>
 
 	<p class="credit">
-		Website made with ❤️ by <a class="link" href="https://httpjames.space" target="_blank"
+		Website made with ❤️ by <a class="link" href="https://xbdm.fun" target="_blank"
+			>xbdm</a
+		>
+	</p>
+	<p class="credit">
+		Original Source Code made with ❤️ by <a class="link" href="https://github.com/httpjamesm/whatever.social-launchpad" target="_blank"
 			>http.james</a
 		>
 	</p>
