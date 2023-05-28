@@ -12,14 +12,6 @@
 
 	let socialServices = [
 		{
-			name: 'Piped',
-			desc: 'An alternative to invidious frontend for YouTube.',
-			url: 'https://watch.whateveritworks.org',
-			src: 'https://github.com/TeamPiped/Piped',
-			iconUrl: 'https://watch.whateveritworks.org/favicon.ico',
-			statusId: 'watch'
-		},
-		{
 			name: 'Invidious',
 			desc: 'An alternative frontend for YouTube.',
 			url: 'https://yt.whateveritworks.org',
@@ -30,10 +22,10 @@
 		{
 			name: 'Nitter',
 			desc: 'An alternative frontend for Twitter.',
-			url: 'https://read.whateveritworks.org',
+			url: 'https://tweet.whateveritworks.org',
 			src: 'https://github.com/zedeus/nitter',
-			iconUrl: 'https://read.whateveritworks.org/favicon.ico',
-			statusId: 'read'
+			iconUrl: 'https://tweet.whateveritworks.org/favicon.ico',
+			statusId: 'tweet'
 		},
 		{
 			name: 'Hyperpipe',
