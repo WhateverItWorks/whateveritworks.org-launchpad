@@ -1,11 +1,18 @@
-version: '3'
+version: '3.7'
 
 services:
   app:
     container_name: 'launchpad'
+    hostname: 'launchpad'
+    restart: 'always'
+    user: 65534:65534
+    read_only: true
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
     build:
       context: .
       dockerfile: Dockerfile
     ports:
-      - '7172:80'
-    restart: 'always'
+      - '127.0.0.1:7172:80'
