@@ -5,7 +5,6 @@ services:
     container_name: 'launchpad'
     hostname: 'launchpad'
     restart: 'always'
-    user: 65534:65534
     read_only: true
     security_opt:
       - no-new-privileges:true
