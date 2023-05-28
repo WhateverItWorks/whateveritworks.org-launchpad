@@ -1,10 +1,6 @@
-# This site (not including privacy policy) is outdated, and will be replaced by the upcoming redesign.
-There's no timeline as we're balancing other stuff IRL, but it'll come very soon
+# whateveritworks.org-launchpad
 
-
-# whatever.social-launchpad
-
-The homepage and launchpad for whatever.social listing all available instances.
+The homepage and launchpad for whateveritworks.org listing all available instances.
 
 ## Developing
 
@@ -51,17 +47,17 @@ Install Docker using the [documentation](https://docs.docker.com/get-docker/).
 Git clone the repository to your production server.
 
 ```bash
-git clone https://github.com/httpjamesm/whatever.social-launchpad.git
+git clone https://github.com/WhateverItWorks/whateveritworks.org-launchpad.git
 ```
 
-Create your docker-compose.override.yml file and configure it to match your environment.
+Create your docker-compose.yml file and configure it to match your environment.
 
 ```bash
-cp docker-compose.yml docker-compose.override.yml
+nano docker-compose.yml
 ```
 
 Build and bring the docker container up.
 
 ```bash
-docker compose -f docker-compose.override.yml up -d
+docker-compose up -d --build
 ```
