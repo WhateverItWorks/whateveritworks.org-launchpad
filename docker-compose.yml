@@ -1,7 +1,7 @@
 version: '3.7'
 
 services:
-  app:
+  launchpad:
     container_name: 'launchpad'
     hostname: 'launchpad'
     restart: 'always'
