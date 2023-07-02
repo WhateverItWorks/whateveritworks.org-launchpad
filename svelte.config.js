@@ -13,8 +13,8 @@ const config = {
 			mode: 'auto',
 			directives: {
 				'default-src': ['self'],
-				'img-src': ['self', '*.whatever.social', 'raw.githubusercontent.com'],
-				'connect-src': ['self', 'statusapi.whatever.social'],
+				'img-src': ['self', '*.whateveritworks.org', 'raw.githubusercontent.com'],
+				'connect-src': ['self', 'statusapi.whateveritworks.org'],
 				'style-src': ['self', 'unsafe-inline'],
 			}
 		}
