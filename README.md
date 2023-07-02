@@ -52,10 +52,6 @@ git clone https://github.com/WhateverItWorks/whateveritworks.org-launchpad.git
 
 Create your docker-compose.yml file and configure it to match your environment.
 
-```bash
-nano docker-compose.yml
-```
-
 Build and bring the docker container up.
 
 ```bash
