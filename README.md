@@ -50,6 +50,11 @@ Git clone the repository to your production server.
 git clone https://github.com/WhateverItWorks/whateveritworks.org-launchpad.git
 ```
 
+### Contributing on AbuseIPDB
+<a href="https://www.abuseipdb.com/user/118422" title="AbuseIPDB is an IP address blacklist for webmasters and sysadmins to report IP addresses engaging in abusive behavior on their networks">
+	<img src="https://www.abuseipdb.com/contributor/118422.svg" alt="AbuseIPDB Contributor Badge" style="width: 401px;">
+</a>
+
 Create your docker-compose.yml file and configure it to match your environment.
 
 Build and bring the docker container up.
