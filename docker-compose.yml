@@ -1,10 +1,10 @@
 version: '3.7'
 
 services:
-  launchpad:
-    container_name: 'launchpad'
-    hostname: 'launchpad'
-    restart: 'always'
+  whateveritworks.org-launchpad:
+    container_name: whateveritworks.org-launchpad
+    hostname: whateveritworks.org-launchpad
+    restart: always
     security_opt:
       - no-new-privileges:true
     cap_drop:
