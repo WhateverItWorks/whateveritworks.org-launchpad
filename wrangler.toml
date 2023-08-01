@@ -1,0 +1,10 @@
+name = "whateveritworks.org-launchpad"
+account_id = "67e7356b3a3b13eeea0d2d0845a81e02"
+
+main = "./.cloudflare/worker.js"
+site.bucket = "./.cloudflare/public"
+
+build.command = "npm run build"
+
+compatibility_date = "2021-11-12"
+workers_dev = true
