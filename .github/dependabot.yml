@@ -11,3 +11,9 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+
+      # Maintain dependencies for svelte
+  - package-ecosystem: "svelte"
+    directory: "/"
+    schedule:
+      interval: "daily"
