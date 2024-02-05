@@ -24,7 +24,7 @@
 	<h1>WhateverItWorks<span style="color: #4362ff">.</span>org</h1>
 	<h2>Privacy Policy</h2>
 	<p>
-		"We", "our" and "us" refers to WhateverItWorks's and xbdm.fun's maintainers and/or
+		"We", "our" and "us" refers to WhateverItWorks.org, WhateverItWorks.net, WhateverItWorks.us, WhateverItWorks.uk, and WhateverItWorks.cool  maintainers and/or
 		developers. "You" refers to you as the user of our services.
 		<br />
 		<br />
@@ -34,11 +34,11 @@
 		need to consult third parties for, and situations where we cannot protect you.
 		<br />
 		<br />
-		This policy applies to all WhateverItWorks sites, found at https://whateveritworks.org, https://xbdm.fun
+		This policy applies to all WhateverItWorks sites, found at https://whateveritworks.org, https://whateveritworks.net, https://whateveritworks.us, https://whateveritworks.uk, https://whateveritworks.cool
 		and all their subdomains. Some sections of this policy may be specific to one of our services, in
 		which case it is specified. By using our services, you are agreeing to this policy.
 		<br /> <br />
-		Last updated: May 3, 2023
+		Last updated: July 22, 2023
 	</p>
 	<br />
 	<br />
@@ -72,45 +72,58 @@
 	<h2>🍪 Cookies</h2>
 	<p>
 		The only use of cookies and local storage in our services is to keep you signed into our
-		services which accounts can be used in, and to save your preferences (Ex: Default video quality
-		on https://yt.xbdm.fun). We do not use cookies for any other purposes.
+		services which accounts can be used in, and to save your preferences.
 	</p>
-	<br />
-	<br />
-	<h2>⚖️ Law Enforcement</h2>
-	<p>
-		In the event of a subpoena, court order, other legal process, or to exercise our legal rights
-		and/or to defend against legal claims, we may be forced to give applicable information with
-		third-parties. Our sites hosted on our WhateverItWorks.org, xbdm.fun domains operate on a servers in Falkenstein, Germany and Helsinki, Finland which is subject to Germany and Finland Law.
-		<br />
-		<br />
-		View the "Personal Data" section of this policy and our
-		<a class="link" href="https://whateveritworks.org/transparency" target="_blank"
-			>Transparency Report</a
-		>.
-	</p>
+
 	<br />
 	<br />
 	<h2>🤝 Third-parties providing Technical Services</h2>
-	<br />
+        <br />
+        <h3>Hetzner.com</h3>
+        <p>
+                We rely on Hetzner.com Server Auctions to provide us with 100% Green Renewal Dedicated Servers. View <a
+                        class="link"
+                        href="https://www.hetzner.com/legal/privacy-policy"
+                        target="_blank">Hetzner.com's Privacy Policy</a
+                > to learn more.
+        </p>
+	<br>
 	<h3>Cloudflare.com</h3>
 	<p>
-		We rely on Cloudflare.com to provide us with DDoS protection, CDN delivery and certain other web
+		We rely on Cloudflare.com to provide us with 100% Green Energy Service, DDoS protection, CDN delivery and certain other web
 		services. View <a
 			class="link"
 			href="https://cloudflare.com/privacy/"
 			target="_blank">Cloudflare.com's Privacy Policy</a
 		> to learn more.
 	</p>
-	
+
 	<br>
+	<br>
+	<h3>Arc.io</h3>
+	<p>We rely on Arc.io to provide us to maintain our website without ads and also respect user privacy. View <a
+														   class="link"
+														   href="https://arc.io/about"
+														   target="_blank">Arc.io's Privacy Policy</a> to learn more.
+
+</p>
+
+	<br>
+	<br>
+	<h3>AbuseIPDB.com</h3>
+	<p>We rely on AbuseIPDB.com to automatically ban abusive ip address attacking our Infrastructure.
+   	<a href="https://www.abuseipdb.com/user/118422" title="AbuseIPDB is an IP address blacklist for webmasters and sysadmins to report IP addresses engaging in abusive behavior on their networks">
+	<img src="https://www.abuseipdb.com/contributor/118422.svg" alt="AbuseIPDB Contributor Badge" style="width: 272px;">
+</a>
+</p>
+
 	<br>
 	<br />
 	<h3>Daily Backups</h3>
 	<p>
 		We rely on Backblaze, Scaleway, and Wasabi for data backups for restoration of the services. 
 		
-		
+		<br>
 		View <a
 			class="link"
 			href="https://wasabi.com/legal/privacy-policy/"
@@ -131,13 +144,7 @@
 		> to learn more.
 		<br>
 	</p>
-	<br />
-	<h3>Kavin.rocks</h3>
-	<p>
-		On https://watch.whateveritworks.org fonts may be loaded from
-		https://fonts.kavin.rocks, which operates via Cloudflare Workers.
-	</p>
-	<br />
+	<br>
 	<h3>Session</h3>
 	<p>
 		We use Session as one of the methods for contacting us. View <a
@@ -147,19 +154,13 @@
 		> to learn more.
 	</p>
 	<br />
-	<h3>Our Email Server</h3>
+	<h3>MsgSafe</h3>
 	<p>
-		We use our own Email Server to receive and store your e-mails sent to us.
+	<p>We use MsgSafe to receive and store your e-mails sent to us. View <a class="link" href="https://www.msgsafe.io/privacy" target="noreferrer">MsgSafe's Privacy Policy</a> to learn more.
 	</p>
 	<br />
-	<h3>Our SimpleLogin Instance</h3>
-	<p>
-		We use our own SimpleLogin to relay your e-mails sent to our whateveritworks.org domain. View <a
-			class="link"
-			href="https://simplelogin.io/privacy/"
-			target="_blank">SimpleLogin's Privacy Policy</a
-		> to learn more.
-	</p>
+	<h3>AnonAddy</h3>
+	<p>We use AnonAddy to relay your e-mails sent to our domains. View <a class="link" href="https://anonaddy.com/privacy/" target="noreferrer">AnonAddy's Privacy Policy</a> to learn more.
 	<br />
 	<br />
 	<h2>💵 Third-parties providing Payment Services</h2>
@@ -177,7 +178,7 @@
 	<h2>🔐 Data Security and Integrity</h2>
 	<p>
 		We take the steps that we deem reasonable to protect your data from unauthorized access and
-		distribution, and from loss of data. For example, we use SSL/TLS to transmit data to you in an
+		distribution, and from loss of data. For example, we use TLS v1.2/v1.3 to transmit data to you in an
 		encrypted format, and we use end-to-end encryption + encryption at rest to ensure your data is safe and sound. With also provided passwords are hashed with Bcrypt or Argon2id for the services that require user accounts.
 	</p>
 	<br />
@@ -185,7 +186,7 @@
 	<h2>🗑️ When you Delete your Account</h2>
 	<p>
 		On the services that you can delete your user account, database backups will continue to hold
-		your information for up to 30 days.
+		your information for up to 14 days.
 	</p>
 	<br />
 	<br />
@@ -197,7 +198,7 @@
 			href="mailto:privacy@whateveritworks.org"
 			target="_blank">privacy@whateveritworks.org</a
 		>
-		(GPG/PGP Public Key <a class="link" href="https://whateveritworks.org/email" target="_blank">here</a>).
+		(GPG/PGP Public Key: <a class="link" href="https://whateveritworks.org/email" target="_blank">here</a>).
 		If we are able to find any information relating to that person, it will be removed.
 	</p>
 	<br />
@@ -209,7 +210,7 @@
 			href="mailto:privacy@whateveritworks.org"
 			target="_blank">privacy@whateveritworks.org</a
 		>
-		(PGP Public Key <a class="link" href="https://whateveritworks.org/email" target="_blank">here</a>).
+		(PGP Public Key: <a class="link" href="https://whateveritworks.org/email" target="_blank">here</a>).
 	</p>
 	<br />
 	<br />
