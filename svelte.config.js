@@ -1,6 +1,5 @@
 import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
-import adapter from '@sveltejs/adapter-cloudflare-workers';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -14,7 +13,7 @@ const config = {
 			mode: 'auto',
 			directives: {
 				'default-src': ['self'],
-				'img-src': ['self', '*.whateveritworks.org', 'raw.githubusercontent.com'],
+				'img-src': ['self', '*.whateveritworks.org', 'raw.githubusercontent.com', '0xacab.org', 'www.abuseipdb.com'],
 				'connect-src': ['self', 'statusapi.whateveritworks.org'],
 				'style-src': ['self', 'unsafe-inline'],
 			}
