@@ -32,6 +32,12 @@
 		As of May 3rd, 2023, we have received 0 requests from government and/or law enforcement
 		agencies.
 	</p>
+	<br>
+	<h3>2024</h3>
+		<p>
+		As of January 1st, 2024, we have received 0 requests from government and/or law enforcement
+		agencies.
+	</p>
 </div>
 
 <style lang="scss">
